@@ -202,9 +202,6 @@ endfunction
 
 
 
-
-
-
 " a minor problem: colon (:) and comma (,) may not be remapped
 " all-lowercase mappings are automatically applied to uppercase as well
 
@@ -222,6 +219,11 @@ call TranslitAddMapping("planslit",
 call TranslitAddMapping("greek",
     \ 'a:α, b:β, v:β, g:γ, d:δ, e:ε, z:ζ, h:η, th:θ, u:θ, i:ι, k:κ, l:λ, m:μ, n:ν, x:ξ,' .
     \ 'o:ο, p:π, r:ρ, s:σ, t:τ, y:υ, f:φ, ch:χ, ps:ψ, w:ω')
+
+call TranslitAddMapping("ru-en",
+    \ 'а:a, б:b, в:v, г:g, д:d, е:e, ё:yo, ж:zh, з:z, и:i, й:j, к:k, л:l, м:m, н:n,' .
+    \ 'о:o, п:p, р:r, s:с, т:t, у:u, ф:f, х:h, ц:c, ч:ch, ш:sh, щ:shh, ы:y, э:je, ' .
+    \ 'ю:yu, я:ya, ъ:'', ь:')
 
 
 " call TranslitSetupShortcut(g:translit_toggle_keymap, g:translit_map)
