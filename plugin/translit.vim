@@ -224,6 +224,6 @@ call TranslitAddMapping("greek",
     \ 'o:ο, p:π, r:ρ, s:σ, t:τ, y:υ, f:φ, ch:χ, ps:ψ, w:ω')
 
 
-call TranslitSetupShortcut(g:translit_toggle_keymap, g:translit_map)
+" call TranslitSetupShortcut(g:translit_toggle_keymap, g:translit_map)
 " call TranslitSetupShortcut('<C-G>', 'greek')
 
